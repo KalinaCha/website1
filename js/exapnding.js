@@ -4,7 +4,6 @@ panels.forEach(panel => {
     panel.addEventListener('click', ()=>{
         removeActiveClasses()
     })
-    
 })
 
 funtion removeActiveClasses(){
