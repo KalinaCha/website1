@@ -55,7 +55,7 @@ document.addEventListener('keyup', (event)=>{
         element4.style.width = "300px"
         element4.style.height = "50px"
         element4.style.opacity = 1
-        element4.innerHTML = "<h4>Click me To Make Me Small. <br> Press "j" to bring me back.</h4>"
+        element4.innerHTML = "<h4>Click me To Make Me Small. <br> Press 'j' to bring me back.</h4>"
     }
 })
 
