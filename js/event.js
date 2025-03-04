@@ -38,4 +38,5 @@ document.addEventListener('keyup', (event)=>{
         positionX = positionX + 10
     }
     element3.style.top = `${positionY}px`
+    element3.style.
 })
