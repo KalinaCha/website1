@@ -19,7 +19,13 @@ element2.addEventListener('mouseout', ()=>{
     element2.style.backgroundColor = "#BB33BB"
 })
 
+let positionY = 0;
+let positionX = 0;
 
 document.addEventListener('keyup', (event)=>{
     console.log(event.key)
+
+    if (event.key == 'ArrowDown') {
+
+    }
 })
