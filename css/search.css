@@ -11,6 +11,13 @@ body{
     margin: 0;
 }
 
+
+
+
+
+
+
+
 .search .input{
     height: 50px;
     width: 200px;
@@ -19,6 +26,13 @@ body{
     border: 0;
     background-color: white;
 }
+.search .input:focus {
+    outline: none;
+}
+
+
+
+
 .btn{
     background-color: white;
     border: 0;
