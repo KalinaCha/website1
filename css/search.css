@@ -40,4 +40,10 @@ body{
     outline: none;
 }
 
+.search.active{
+    width: 200px;
+}
 
+.search.active .btn {
+    transform: translateX(198px)
+}
