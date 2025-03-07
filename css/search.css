@@ -11,6 +11,10 @@ body{
     margin: 0;
 }
 
+.search {
+    height: 50px;
+    position: relative;
+}
 .search .btn{
     position: absolute;
     top: 0;
@@ -34,14 +38,6 @@ body{
 }
 .search .input:focus {
     outline: none;
-}
-
-.btn{
-    background-color: white;
-    border: 0;
-    font-size: 24px;
-    height: 50 px;
-    width: 50 px;
 }
 
 
