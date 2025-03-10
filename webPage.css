@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+button {
+    margin-top: 20%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
