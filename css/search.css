@@ -49,3 +49,27 @@ body{
 .search.active .btn {
     transform: translateX(198px)
 }
+
+.home-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-deocration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.home-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.home-btn:active {
+    transform: scale(0.95);
+}

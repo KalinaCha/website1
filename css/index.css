@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: 'Winky Sans', sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav {
+    background color: #007bff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+main {
+    margin-top: 80px;
+}
+
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 28px;
+    font weight: 600;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button:hover (
+    background-color: #0056b3;
+)
+
+.dark-mode nav {
+    background-color: #444;
+}
+
+.dark-mode button {
+    background-color: #ffdd57;
+    color: white;
+}
+
+.dark-mode button:/hover {
+    background-color: #e6c200;
+}
+
