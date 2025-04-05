@@ -1,0 +1,87 @@
+body {
+    background-color: #ADD8E6;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.house {
+    position: relative;
+    width: 200px;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 80px solid #4682B4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.walls {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+}
+
+.walls .door {
+    width: 50px;
+    height: 70px;
+    background-color: #29465B;
+    position: absolute;
+    bottom: 0;
+    left: 75px;
+}
+
+.walls .window-left {
+    width: 40px;
+    height: 40px;
+    background-color: #ADD8E6;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 3px solid #98AFC7;
+}
+
+.walls .window-right {
+    width: 40px;
+    height: 40px;
+    background-color: #ADD8E6;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 3px solid #98AFC7;
+}
+
+.walls .door .doorknob {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.grass {
+    width: 100%;
+    height: 159px;
+    background-color: #4F7942;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
